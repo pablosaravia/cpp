@@ -1,5 +1,5 @@
-#ifndef PUNTO_H
-#define PUNTO_H
+#ifndef PUNTO
+#define PUNTO
 
 class punto
 {
@@ -17,4 +17,4 @@ public:
 
 };
 
-#endif // PUNTO_H
+#endif // PUNTO
