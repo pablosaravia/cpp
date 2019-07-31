@@ -1,5 +1,5 @@
-#ifndef SEGMENTO_H
-#define SEGMENTO_H
+#ifndef SEGMENTO
+#define SEGMENTO
 
 #include "punto.h"
 
@@ -21,4 +21,4 @@ public:
 
 };
 
-#endif // SEGMENTO_H
+#endif // SEGMENTO
