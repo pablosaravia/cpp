@@ -1,18 +1,17 @@
 #ifndef PUNTO
 #define PUNTO
 
-class punto
-{
+class punto {
 private:
-    float abs, ord;
+    float x, y;
     
 public:
     punto();
     punto(float *x, float *y);
-    float get_abs();
-    float get_ord();
-    void set_abs(float *x);
-    void set_ord(float *y);
+    float get_x();
+    float get_y();
+    void set_x(float *x);
+    void set_y(float *y);
     ~punto();
 
 };

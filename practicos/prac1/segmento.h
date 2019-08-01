@@ -6,16 +6,15 @@
 class segmento
 {
 private:
-    punto *orig;
-    punto *dest;
+    punto *a, *b;
     
 public:
     segmento();
-    segmento (punto *a, punto *b);
-    punto get_orig();
-    punto get_dest();
-    void set_orig(punto *a);
-    void set_dest(punto *b);
+    segmento(punto *a, punto *b);
+    punto get_a();
+    punto get_b();
+    void set_a(punto *a);
+    void set_b(punto *b);
     float get_largo ();
     ~segmento();
 
