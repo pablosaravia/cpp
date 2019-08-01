@@ -3,8 +3,7 @@
 
 #include "punto.h"
 
-class segmento
-{
+class segmento {
 private:
     punto *a, *b;
     

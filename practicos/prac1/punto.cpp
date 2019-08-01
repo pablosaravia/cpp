@@ -1,14 +1,13 @@
 #include "punto.h"
 
-punto::punto()
-{
+punto::punto(){
     this->x=0;
     this->y=0;
 };
 
-punto::punto(float *x, float *y){
-    this->x = *x;
-    this->y = *y;
+punto::punto(float x, float y){
+    this->x = x;
+    this->y = y;
 };
 
 float punto::get_x(){
